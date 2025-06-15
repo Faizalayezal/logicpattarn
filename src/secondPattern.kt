@@ -25,7 +25,7 @@ fun secondPattern() {
 
     for (r in 5 downTo 1) {
         for (c in 1..r) {
-            print(c)//*,r,c
+            print(r)//*,r,c
         }
 
         println()

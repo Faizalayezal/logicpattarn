@@ -27,7 +27,7 @@ fun tenPattern() {
             print(" ")
         }
         for(c in 1..r){
-            print(c)
+            print(c)//r
         }
 
         println()

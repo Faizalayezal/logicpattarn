@@ -13,3 +13,16 @@ fun logicNormal() {
     println("b---->$b")//6
     println("c---->$c")//11
 }
+fun swipeValue() {
+
+    var a=2
+    var b=5
+
+    a=b.also {
+        b=a
+    }
+
+    println("a---->$a")
+    println("b---->$b")
+
+}

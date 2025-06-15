@@ -3,11 +3,11 @@ fun alphaBatPattern() {
     //firstAlfabatepat()
     secondAlfabatepat()
     //threeAlfabatepat()
-   // fiveAlfabatepat()
+    // fiveAlfabatepat()
 
 }
 
-fun firstAlfabatepat(){
+fun firstAlfabatepat() {
     /*
     A
     B C
@@ -15,20 +15,16 @@ fun firstAlfabatepat(){
     G H I J
     K L M N O
    */
-
     var alphabet = 'A'
-
     for (i in 1..5) {
         for (j in 1..i) {
             print("${alphabet++} ")
         }
-
         println()
     }
 }
 
-fun secondAlfabatepat(){
-
+fun secondAlfabatepat() {
     /*
         A
         B B
@@ -42,7 +38,7 @@ fun secondAlfabatepat(){
 
     for (i in 1..5) {
         for (j in 1..i) {
-            print("${alphabet+i-1} ")
+            print("${alphabet + i - 1} ")
         }
 
         println()
@@ -50,7 +46,7 @@ fun secondAlfabatepat(){
 
 }
 
-fun threeAlfabatepat(){
+fun threeAlfabatepat() {
 
     /*
        A
@@ -61,11 +57,11 @@ fun threeAlfabatepat(){
 
      */
 
-    var alphabet = 'A'
+    val alphabet = 'A'
 
     for (i in 1..5) {
         for (j in 1..i) {
-            print("${alphabet+i+j-2} ")
+            print("${alphabet + i + j - 2} ")
         }
 
         println()
@@ -73,7 +69,7 @@ fun threeAlfabatepat(){
 
 }
 
-fun fourAlfabatepat(){
+fun fourAlfabatepat() {
 
     /*
        E
@@ -85,7 +81,7 @@ fun fourAlfabatepat(){
      */
 
     for (i in 1..5) {
-        var alphabet = 'A'+5-i
+        var alphabet = 'A' + 5 - i
         for (j in 1..i) {
             print("${alphabet} ")
             alphabet++
@@ -95,7 +91,7 @@ fun fourAlfabatepat(){
 
 }
 
-fun fiveAlfabatepat(){
+fun fiveAlfabatepat() {
 
     /*
 
@@ -114,12 +110,12 @@ fun fiveAlfabatepat(){
 
     */
 
-    var alphabet = 'A'
+    val alphabet = 'A'
 
     for (i in 1..5) {
         for (j in 1..5) {
-           // print("${alphabet+i-1} ")
-            print("${alphabet+j-1} ")
+            // print("${alphabet+i-1} ")
+            print("${alphabet + j - 1} ")
         }
 
         println()
