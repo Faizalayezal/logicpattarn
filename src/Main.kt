@@ -1,5 +1,8 @@
 fun main() {
+
+   // swipeValue()
     val str = "ABC"
+  //  doublePeramed()
     //backTrackingProblemSolve(str,"",0)
 
     // val Queen = NQueenProblem()
@@ -36,8 +39,8 @@ fun main() {
      }
  */
     // doublePeramed()
-
-    /*val start = 50
+    reverased()
+   /* val start = 0
     val end = 100
     val palindromeSeries = generatePalindromeSeries(start, end)
     println("Palindrome series between $start and $end: $palindromeSeries")*/
@@ -52,7 +55,17 @@ fun main() {
     println(sortedValues) // Output: [1, 2, 3, 5, 8, 9]*/
 
 
-    eightPattern()
+ /*   var a=5
+    var b=6
+    a=a+b
+    b=a-b
+    a=a-b
+    print("a = $a")
+    print("b = $b")*/
+
+
+
+
 
 }
 

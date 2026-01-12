@@ -38,3 +38,25 @@ fun sortValuesRecursively(values: MutableList<Int>): List<Int> {
 
     return sortValuesRecursively(left) + listOf(pivot) + sortValuesRecursively(right)
 }
+fun reverased(){
+
+    val data= listOf(1,2,3,4,5)
+
+    val reversed = mutableListOf<Int>()
+
+    for (i in data.size - 1 downTo 0) {
+        reversed.add(data[i])
+    }
+
+    println(reversed)
+}
+
+/*
+final List<int> data = [1, 2, 3, 4, 5];
+
+List<int> reversed = [];
+
+for (int i = data.length - 1; i >= 0; i--) {
+    reversed.add(data[i]);
+}
+print(reversed);*/

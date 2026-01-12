@@ -18,11 +18,22 @@ fun swipeValue() {
     var a=2
     var b=5
 
-    a=b.also {
+
+
+  /*  a=b.also {
         b=a
     }
 
     println("a---->$a")
     println("b---->$b")
+*/
+
+    a=a+b
+    b=a-b
+    a=a-b
+
+    println("a35---->$a")
+    println("b36---->$b")
+
 
 }
