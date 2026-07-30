@@ -45,6 +45,7 @@ fun reverased(){
     val reversed = mutableListOf<Int>()
 
     for (i in data.size - 1 downTo 0) {
+        //if(data[i]%2==0)
         reversed.add(data[i])
     }
 

@@ -1,9 +1,11 @@
 fun main() {
 
+  //  interviewquestion()
    // swipeValue()
-    val str = "ABC"
+    val str = "1234"
+  //  fivePattern()
   //  doublePeramed()
-    //backTrackingProblemSolve(str,"",0)
+   // backTrackingProblemSolve(str,"",0)
 
     // val Queen = NQueenProblem()
     // Queen.solveNQ()
@@ -39,13 +41,14 @@ fun main() {
      }
  */
     // doublePeramed()
-    reverased()
+   // reverased()
+  //  commanQuestion()
    /* val start = 0
     val end = 100
     val palindromeSeries = generatePalindromeSeries(start, end)
     println("Palindrome series between $start and $end: $palindromeSeries")*/
 
-    /*val array = intArrayOf(64, 3, 25, 12, 22, 11, 90)
+   /* val array = intArrayOf(64, 3, 25, 12, 22, 11, 90)
     println(array.size)
     bubbleSort(array, array.size)
     print("Sorted array:${array.joinToString()}")*/
@@ -54,14 +57,7 @@ fun main() {
     val sortedValues = sortValuesRecursively(values)
     println(sortedValues) // Output: [1, 2, 3, 5, 8, 9]*/
 
-
- /*   var a=5
-    var b=6
-    a=a+b
-    b=a-b
-    a=a-b
-    print("a = $a")
-    print("b = $b")*/
+    boxAndUnBoxExample()
 
 
 
